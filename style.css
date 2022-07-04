@@ -1,0 +1,37 @@
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: .8;
+}
+.name-color {
+    color: rgb(249, 90, 172);
+}
+
+section {
+    display: flex;
+}
+.top-bg {
+    background-image: url(images/bg1.jpg) ;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.half-width {
+    width: 50%;
+    padding: 10px;
+}
+.profile-pic {
+    height: 350px;
+    width: 400px;
+
+}
+.link-btn {
+    text-decoration: none;
+    background-image: linear-gradient(pink, deeppink);
+    padding: 10px 40px;
+    border-radius: 5px 15px;
+    font-weight: bold;
+    color: white;
+}
