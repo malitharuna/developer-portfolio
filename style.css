@@ -7,11 +7,11 @@ h1 {
     font-size: 50px;
     line-height: .8;
 }
-.name-color {
-    color: rgb(249, 90, 172);
+.pink-color {
+    color: rgb(171, 28, 88);
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 120px;
 }
@@ -21,7 +21,7 @@ section {
 }
 .half-width {
     width: 50%;
-    padding: 10px;
+    padding: 20px;
 }
 .profile-pic {
     height: 400px;
@@ -39,9 +39,28 @@ p {
     font-weight: bold;
     color: white;
 }
-
 .dream-big {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item {
+    box-shadow: 15px 15px 20px 10px rgb(0, 128, 128);
+    margin-left:5%;
+    width: 40%;
+    border-radius: 10px;
+}
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack-developer {
+border-left:7px solid rgb(173, 112, 216);
+}
+#baby-developer {
+    border-left: 7px solid goldenrod;
+}
+footer p {
+    text-align: center;
 }
